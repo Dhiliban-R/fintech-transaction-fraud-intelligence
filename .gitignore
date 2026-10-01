@@ -1,0 +1,15 @@
+# Ignore large data dumps
+*.csv
+*.parquet
+*.zip
+*.tar.gz
+
+# Keep sample files and Dataset README
+!Dataset/README.md
+!Dataset/sample_*.csv
+
+# Python environment artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
